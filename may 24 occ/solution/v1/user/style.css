@@ -1,0 +1,14 @@
+#container {
+    border: 1px black solid;
+}
+#title {
+    border: 1px red solid;
+}
+
+#navbar {
+    border: 1px green solid;
+}
+
+#content {
+    border: 1px yellow solid;
+}

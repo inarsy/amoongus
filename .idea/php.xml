@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="LaravelPint">
+    <laravel_pint_settings>
+      <laravel_pint_by_interpreter asDefaultInterpreter="true" interpreter_id="64df737f-af15-4bed-8b8a-928edbacea26">
+        <option name="timeout" value="30000" />
+      </laravel_pint_by_interpreter>
+    </laravel_pint_settings>
+  </component>
   <component name="MessDetectorOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>
