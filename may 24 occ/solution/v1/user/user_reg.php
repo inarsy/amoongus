@@ -1,4 +1,7 @@
 <?php
+
+//page for a user to register an account
+
 echo "<!DOCTYPE html>";
 
 echo "<html lang='en'>";
@@ -26,6 +29,7 @@ echo "<h4> Add New Admin </h4>";
 
 echo "<br>";
 
+//form for the users infomation to be input
 echo "<form action='user_add.php' method='post'>";
 echo   "<label for='username'>Username:</label><br>";
 echo   "<input type='text'  name='username' value=''><br><br>";

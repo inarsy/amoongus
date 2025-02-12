@@ -3,7 +3,7 @@
 
     if ($_POST['password'] == $_POST['password_check']) {
         try {  //try this code
-            $hpswd = password_hash($_POST['password'], PASSWORD_DEFAULT);  //has the password
+            $hpswd = password_hash($_POST['password'], PASSWORD_DEFAULT);  //hash the password
 
             include '../functions/db_connect.php';
 

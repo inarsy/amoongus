@@ -26,6 +26,7 @@ echo "<h4> Add New user type </h4>";
 
 echo "<br>";
 
+//form to set up user type
 echo "<form method='post' action='reg_user_type.php'>";
 
     echo   "<label for='user_type'>User Type:</label><br>";

@@ -1,6 +1,5 @@
 <?php
 
-
 echo "<!DOCTYPE html>";
 
 echo "<html lang='en'>";
@@ -26,6 +25,7 @@ echo "<h4> Add New room type </h4>";
 
 echo "<br>";
 
+//form to set up room type
 echo "<form method='post' action='reg_room_type.php'>";
 
     echo   "<label for='room_type'>Room Type:</label><br>";

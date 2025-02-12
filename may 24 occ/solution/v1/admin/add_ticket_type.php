@@ -26,6 +26,7 @@ echo "<h4> Add New ticket type </h4>";
 
 echo "<br>";
 
+//form to set up ticket type
 echo "<form method='post' action='reg_ticket_type.php'>";
 
     echo   "<label for='ticket_type'>Ticket Type:</label><br>";
