@@ -12,7 +12,7 @@ function usr_error(&$session){
 
 function get_ticket_types($conn) {
     try {
-        $sql = "SELECT ticketid, ticket from ticket";
+        $sql = "SELECT ticketid, ticket from tickets";
         $stmt = $conn->prepare($sql);
         $stmt->execute();
         $result = $stmt->fetchall(PDO::FETCH_ASSOC);

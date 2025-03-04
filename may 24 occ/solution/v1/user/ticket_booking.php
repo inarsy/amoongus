@@ -1,5 +1,10 @@
 <?php
 
+session_start();
+
+require_once 'common_functions.php';
+require_once 'dbconnect.php';
+
 echo "<form method='post' action='ticket_booking.php'>'";
 
 echo "<select name='ticket_type'>";
@@ -15,6 +20,6 @@ echo "</select><br>";
 
 echo "<input type='date' name='booking_date' value='2025-03-15' min='2025-03-04' max='2025-11-30' />";
 
-echo "<input type='text' name='num' value='number of tickets' />";
+echo "<input type='text' name='num' value='number of tickets' ><br>";
 
-echo "<input type='submit' name='submit' value='Register' />";
+echo "<input type='submit' name='submit' value='Register'>";
